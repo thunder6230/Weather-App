@@ -54,8 +54,9 @@ function saveSettings(){
             inputCity.style.color = 'black'
             inputCity.style.fontWeight = 'normal'
         }, 2000)
-    }
+    }else{
     getNewWeather()
+    }
 }
 
 
